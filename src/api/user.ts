@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { IHomePermission } from '../settings/homeState';
-const apiUrl = 'http://localhost:3000/api/user';
+const apiUrl = 'https://classroomsystem-api.onrender.com/api/user';
 
 export type IGoRegisterProps = {
   user_name: string;
