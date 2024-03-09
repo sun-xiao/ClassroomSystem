@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiUrl = 'https://classroomsystem-api.onrender.com/api/class';
+const apiUrl = 'https://localhost:3000/api/class';
 
 export const getAllClass = async () => {
   return await axios.get(apiUrl + '/getAllClass');

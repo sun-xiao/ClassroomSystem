@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiUrl = 'https://classroomsystem-api.onrender.com/api/sign';
+const apiUrl = 'http://localhost:3000/api/sign';
 
 export type IPostSignProps = {
   creator: string;
