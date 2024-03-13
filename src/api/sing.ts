@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiUrl = 'http://localhost:3000/api/sign';
+const apiUrl = 'http://192.168.2.12:3000/api/sign';
 
 export type IPostSignProps = {
   creator: string;

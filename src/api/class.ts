@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiUrl = 'https://localhost:3000/api/class';
+const apiUrl = 'http://192.168.2.12:3000/api/class';
 
 export const getAllClass = async () => {
   return await axios.get(apiUrl + '/getAllClass');
